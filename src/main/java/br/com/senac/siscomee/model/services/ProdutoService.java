@@ -168,7 +168,7 @@ public class ProdutoService {
 
 					Query q = entityManager.createQuery(Sql);
 		
-					List<Fornecedores> Lista = q.getResultList();
+					List<Produtos> Lista = q.getResultList();
 						
 					return Lista.size() > 0 ? false : true;
 	}
